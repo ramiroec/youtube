@@ -1,8 +1,6 @@
 # YouTube Clone 🎬
 
-![YouTube Clone Screenshot](https://user-images.githubusercontent.com/123456789/your-screenshot.png)
-
-Este es un clon sencillo de YouTube, creado con **React.js**. La aplicación permite a los usuarios buscar videos, ver una lista de resultados y reproducir el video seleccionado en un reproductor grande. El diseño está inspirado en el modo oscuro de YouTube para una experiencia de usuario agradable.
+Es un clon sencillo de YouTube, creado con **React.js**. La aplicación permite a los usuarios buscar videos, ver una lista de resultados y reproducir el video seleccionado en un reproductor grande. El diseño está inspirado en el modo oscuro de YouTube para una experiencia de usuario agradable.
 
 ## Descripción
 
