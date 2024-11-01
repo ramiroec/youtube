@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# YouTube Clone 🎬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![YouTube Clone Screenshot](https://user-images.githubusercontent.com/123456789/your-screenshot.png)
 
-## Available Scripts
+Este es un clon sencillo de YouTube, creado con **React.js**. La aplicación permite a los usuarios buscar videos, ver una lista de resultados y reproducir el video seleccionado en un reproductor grande. El diseño está inspirado en el modo oscuro de YouTube para una experiencia de usuario agradable.
 
-In the project directory, you can run:
+## Descripción
 
-### `npm start`
+Este proyecto fue desarrollado como un ejercicio para practicar el consumo de APIs y el uso de componentes en React. La aplicación utiliza la **API de YouTube** para obtener los resultados de búsqueda en tiempo real. A continuación, se enumeran las características clave del proyecto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Búsqueda de videos**: Una barra de búsqueda en la parte superior permite buscar videos.
+- **Lista de resultados**: Muestra una lista compacta de los videos más relevantes para la búsqueda.
+- **Reproductor de video grande**: Reproduce el video seleccionado en un reproductor grande y prominente.
+- **Modo oscuro**: Fondo negro y diseño minimalista para una experiencia visual atractiva.
 
-### `npm test`
+## Tecnologías Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**: Biblioteca principal para construir la interfaz de usuario.
+- **Axios**: Para manejar las solicitudes HTTP a la API de YouTube.
+- **YouTube API v3**: Proporciona los datos de los videos y permite realizar búsquedas.
 
-### `npm run build`
+## Instalación y Configuración
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clona el repositorio**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/ramiroec/youtube-clone.git
+   cd youtube-clone´´´
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. **Instala las dependencias:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Configura la API de YouTube:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Obtén una clave de API de YouTube Data API v3.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Edita el archivo src/api/youtube.js y añade tu clave de API.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Ejecuta la aplicación: npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Autor:
+Ramiro Estigarribia
