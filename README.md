@@ -40,5 +40,6 @@ Edita el archivo src/api/youtube.js y añade tu clave de API.
 
 4. Ejecuta la aplicación: npm start
 
-Autor:
-Ramiro Estigarribia
+## 👨‍💻 Créditos
+
+Desarrollado por [Ramiro Estigarribia Canese](https://github.com/ramiroec).
