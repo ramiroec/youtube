@@ -29,12 +29,12 @@ Este proyecto fue desarrollado como un ejercicio para practicar el consumo de AP
    ```
 
 
-2. **Instala las dependencias:
+2. **Instala las dependencias**:
 npm install
 
 Configura la API de YouTube:
 
-3. **Obtén una clave de API de YouTube Data API v3.
+3. **Obtén una clave de API de YouTube Data API v3**.
 
 Edita el archivo src/api/youtube.js y añade tu clave de API.
 
