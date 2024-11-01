@@ -25,7 +25,8 @@ Este proyecto fue desarrollado como un ejercicio para practicar el consumo de AP
 
    ```bash
    git clone https://github.com/ramiroec/youtube-clone.git
-   cd youtube-clone´´´
+   cd youtube-clone
+   ´´´
 
 
 2. **Instala las dependencias:
