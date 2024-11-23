@@ -1,6 +1,7 @@
 // src/api/youtube.js
 import axios from 'axios';
 
+//Aqui va la clave de api
 const KEY = 'AIzaSyCzqyZvhaf3GheelWxDX8_YSldUmT64FDk';
 
 export default axios.create({
