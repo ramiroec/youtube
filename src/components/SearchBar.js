@@ -11,6 +11,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div style={{ marginBottom: '20px' }}>
+      <label>Videos en Linea</label>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
