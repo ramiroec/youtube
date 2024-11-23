@@ -15,7 +15,7 @@ const SearchBar = ({ onSearch }) => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Buscar videos..."
+          placeholder="Buscar videos ahora..."
           value={term}
           onChange={(e) => setTerm(e.target.value)}
           style={{
